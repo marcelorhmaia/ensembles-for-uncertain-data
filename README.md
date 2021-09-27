@@ -3,7 +3,7 @@
 This repository contains the datasets and code related to the work reported in the paper referenced below.
 
 **Title:** An Ensemble of Naive Bayes Classifiers for Uncertain Categorical Data  
-**Authors:** Marcelo R. H. Maia, Alexandre Plastino, and Alex A. Freitas  
+**Authors:** Marcelo R. H. Maia, Alexandre Plastino and Alex A. Freitas  
 **In:** 21st IEEE International Conference on Data Mining (IEEE ICDM 2021)
 
 The code was implemented and tested using Python 3.9.  
