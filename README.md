@@ -15,7 +15,7 @@ Assuming a Python environment with all required dependencies is available, follo
 
 The results produced should be the following:
 
-<pre>
+```
 dataset = AG-C.elegans.arff  | model = NB-NV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.765957      0.631579        0.692308           57.0        0.300000     0.450000       0.360000          20.0  0.584416    0.540789  0.546053  0.533114
@@ -351,4 +351,4 @@ dataset = AG-S.cerevisiae.arff  | model = ENB-EV+BRS
 8            0.842105      1.000000        0.914286           32.0        0.000000     0.000000       0.000000           6.0  0.842105    0.500000  0.859375  0.000000
 9            0.942857      0.970588        0.956522           34.0        0.666667     0.500000       0.571429           4.0  0.921053    0.735294  0.860294  0.696631
 mean         0.901231      0.944545        0.922380           33.6        0.390000     0.241667       0.298417           4.6  0.858637    0.593106  0.767899  0.477771
-</pre>
+```
