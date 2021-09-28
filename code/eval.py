@@ -4,7 +4,6 @@ from math import sqrt
 import numpy as np
 import pandas
 from numpy import full
-from scipy.io import arff
 from sklearn.ensemble import BaggingClassifier
 from sklearn.metrics import classification_report, balanced_accuracy_score, roc_auc_score
 from sklearn.model_selection import KFold
@@ -14,17 +13,7 @@ from ud_bagging import UDBaggingClassifier
 
 
 def read_data(file):
-    with open(file) as f:
-        data, meta = arff.loadarff(f)
-    data_frame = pandas.DataFrame(data)
-    for col in data_frame:
-        if col == 'entrez':
-            data_frame[col] = list(map(lambda x: int(x), data_frame[col]))
-        elif col == 'class':
-            data_frame[col] = list(map(lambda x: int(x.decode('UTF-8')), data_frame[col]))
-        else:
-            data_frame[col] = list(map(lambda x: float(x), data_frame[col]))
-    return data_frame
+    return pandas.read_csv(file)
 
 
 def cross_validation(model, data_frame, n_estimators, random_seed):
