@@ -16,7 +16,7 @@ Assuming a Python environment with all required dependencies is available, follo
 The results produced should be the following:
 
 ```
-dataset = AG-C.elegans.arff  | model = NB-NV
+dataset = AG-C.elegans.csv  | model = NB-NV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.765957      0.631579        0.692308           57.0        0.300000     0.450000       0.360000          20.0  0.584416    0.540789  0.546053  0.533114
 1            0.700000      0.686275        0.693069           51.0        0.407407     0.423077       0.415094          26.0  0.597403    0.554676  0.537707  0.538838
@@ -30,7 +30,7 @@ dataset = AG-C.elegans.arff  | model = NB-NV
 9            0.800000      0.653061        0.719101           49.0        0.527778     0.703704       0.603175          27.0  0.671053    0.678382  0.685185  0.677910
 mean         0.763824      0.705394        0.733447           50.6        0.492431     0.566134       0.526717          25.7  0.656869    0.635764  0.635231  0.631939
 
-dataset = AG-C.elegans.arff  | model = ENB-NV
+dataset = AG-C.elegans.csv  | model = ENB-NV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.920000      0.403509        0.560976           57.0        0.346154     0.900000       0.500000          20.0  0.532468    0.651754  0.665789  0.602626
 1            0.947368      0.352941        0.514286           51.0        0.431034     0.961538       0.595238          26.0  0.558442    0.657240  0.651584  0.582552
@@ -44,7 +44,7 @@ dataset = AG-C.elegans.arff  | model = ENB-NV
 9            0.947368      0.367347        0.529412           49.0        0.456140     0.962963       0.619048          27.0  0.578947    0.665155  0.760393  0.594762
 mean         0.929757      0.355409        0.514243           50.6        0.426276     0.944712       0.587472          25.7  0.554443    0.650060  0.714625  0.579447
 
-dataset = AG-C.elegans.arff  | model = ENB-NV+BRS
+dataset = AG-C.elegans.csv  | model = ENB-NV+BRS
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.862069      0.438596        0.581395           57.0        0.333333     0.800000       0.470588          20.0  0.532468    0.619298  0.661404  0.592349
 1            0.923077      0.470588        0.623377           51.0        0.470588     0.923077       0.623377          26.0  0.623377    0.696833  0.705882  0.659082
@@ -58,7 +58,7 @@ dataset = AG-C.elegans.arff  | model = ENB-NV+BRS
 9            0.941176      0.326531        0.484848           49.0        0.440678     0.962963       0.604651          27.0  0.552632    0.644747  0.725624  0.560747
 mean         0.872676      0.422967        0.569777           50.6        0.435008     0.874724       0.581053          25.7  0.575393    0.648846  0.723274  0.608260
 
-dataset = AG-C.elegans.arff  | model = NB-EV
+dataset = AG-C.elegans.csv  | model = NB-EV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.867925      0.807018        0.836364           57.0        0.541667     0.650000       0.590909          20.0  0.766234    0.728509  0.724561  0.724266
 1            0.803922      0.803922        0.803922           51.0        0.615385     0.615385       0.615385          26.0  0.740260    0.709653  0.845023  0.703364
@@ -72,7 +72,7 @@ dataset = AG-C.elegans.arff  | model = NB-EV
 9            0.750000      0.612245        0.674157           49.0        0.472222     0.629630       0.539683          27.0  0.618421    0.620937  0.731293  0.620876
 mean         0.780276      0.749946        0.764811           50.6        0.543250     0.584226       0.562993          25.7  0.691832    0.667086  0.768879  0.661920
 
-dataset = AG-C.elegans.arff  | model = ENB-EV
+dataset = AG-C.elegans.csv  | model = ENB-EV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.739726      0.947368        0.830769           57.0        0.250000     0.050000       0.083333          20.0  0.714286    0.498684  0.722807  0.217643
 1            0.694444      0.980392        0.813008           51.0        0.800000     0.153846       0.258065          26.0  0.701299    0.567119  0.849170  0.388368
@@ -86,7 +86,7 @@ dataset = AG-C.elegans.arff  | model = ENB-EV
 9            0.676471      0.938776        0.786325           49.0        0.625000     0.185185       0.285714          27.0  0.671053    0.561980  0.735450  0.416950
 mean         0.687525      0.964444        0.802774           50.6        0.670476     0.136414       0.226704          25.7  0.685424    0.550429  0.769097  0.362717
 
-dataset = AG-C.elegans.arff  | model = ENB-EV+BRS
+dataset = AG-C.elegans.csv  | model = ENB-EV+BRS
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.742857      0.912281        0.818898           57.0        0.285714     0.100000       0.148148          20.0  0.701299    0.506140  0.708772  0.302040
 1            0.691176      0.921569        0.789916           51.0        0.555556     0.192308       0.285714          26.0  0.675325    0.556938  0.801659  0.420981
@@ -100,7 +100,7 @@ dataset = AG-C.elegans.arff  | model = ENB-EV+BRS
 9            0.714286      0.816327        0.761905           49.0        0.550000     0.407407       0.468085          27.0  0.671053    0.611867  0.702192  0.576695
 mean         0.709567      0.902707        0.794569           50.6        0.561361     0.268939       0.363656          25.7  0.688072    0.585823  0.748050  0.492720
 
-dataset = AG-D.melanogaster.arff  | model = NB-NV
+dataset = AG-D.melanogaster.csv  | model = NB-NV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.000000      0.000000        0.000000            3.0        0.823529     0.875000       0.848485          16.0  0.736842    0.437500  0.437500  0.000000
 1            0.600000      0.500000        0.545455            6.0        0.785714     0.846154       0.814815          13.0  0.736842    0.673077  0.660256  0.650444
@@ -114,7 +114,7 @@ dataset = AG-D.melanogaster.arff  | model = NB-NV
 9            0.600000      0.375000        0.461538            8.0        0.615385     0.800000       0.695652          10.0  0.611111    0.587500  0.575000  0.547723
 mean         0.575000      0.361872        0.444194            6.9        0.688150     0.851159       0.761023          11.6  0.672222    0.606516  0.608349  0.554987
 
-dataset = AG-D.melanogaster.arff  | model = ENB-NV
+dataset = AG-D.melanogaster.csv  | model = ENB-NV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.222222      0.666667        0.333333            3.0        0.900000     0.562500       0.692308          16.0  0.578947    0.614583  0.541667  0.612372
 1            0.357143      0.833333        0.500000            6.0        0.800000     0.307692       0.444444          13.0  0.473684    0.570513  0.807692  0.506370
@@ -128,7 +128,7 @@ dataset = AG-D.melanogaster.arff  | model = ENB-NV
 9            0.538462      0.875000        0.666667            8.0        0.800000     0.400000       0.533333          10.0  0.611111    0.637500  0.612500  0.591608
 mean         0.436136      0.766537        0.555952            6.9        0.747421     0.428480       0.544697          11.6  0.557602    0.597509  0.656222  0.573102
 
-dataset = AG-D.melanogaster.arff  | model = ENB-NV+BRS
+dataset = AG-D.melanogaster.csv  | model = ENB-NV+BRS
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.200000      0.666667        0.307692            3.0        0.888889     0.500000       0.640000          16.0  0.526316    0.583333  0.541667  0.577350
 1            0.428571      1.000000        0.600000            6.0        1.000000     0.384615       0.555556          13.0  0.578947    0.692308  0.769231  0.620174
@@ -142,7 +142,7 @@ dataset = AG-D.melanogaster.arff  | model = ENB-NV+BRS
 9            0.538462      0.875000        0.666667            8.0        0.800000     0.400000       0.533333          10.0  0.611111    0.637500  0.612500  0.591608
 mean         0.455155      0.802294        0.580808            6.9        0.794722     0.445633       0.571053          11.6  0.578655    0.623964  0.650348  0.597937
 
-dataset = AG-D.melanogaster.arff  | model = NB-EV
+dataset = AG-D.melanogaster.csv  | model = NB-EV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.000000      0.000000        0.000000            3.0        0.823529     0.875000       0.848485          16.0  0.736842    0.437500  0.583333  0.000000
 1            0.166667      0.166667        0.166667            6.0        0.615385     0.615385       0.615385          13.0  0.473684    0.391026  0.512821  0.320256
@@ -156,7 +156,7 @@ dataset = AG-D.melanogaster.arff  | model = NB-EV
 9            1.000000      0.375000        0.545455            8.0        0.666667     1.000000       0.800000          10.0  0.722222    0.687500  0.775000  0.612372
 mean         0.550000      0.269058        0.361347            6.9        0.671222     0.862603       0.754973          11.6  0.655556    0.565831  0.666457  0.481758
 
-dataset = AG-D.melanogaster.arff  | model = ENB-EV
+dataset = AG-D.melanogaster.csv  | model = ENB-EV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.000000      0.000000        0.000000            3.0        0.842105     1.000000       0.914286          16.0  0.842105    0.500000  0.562500  0.000000
 1            1.000000      0.166667        0.285714            6.0        0.722222     1.000000       0.838710          13.0  0.736842    0.583333  0.474359  0.408248
@@ -170,7 +170,7 @@ dataset = AG-D.melanogaster.arff  | model = ENB-EV
 9            1.000000      0.125000        0.222222            8.0        0.588235     1.000000       0.740741          10.0  0.611111    0.562500  0.825000  0.353553
 mean         0.416667      0.083258        0.138784            6.9        0.640093     0.960913       0.768359          11.6  0.643275    0.522085  0.640519  0.282848
 
-dataset = AG-D.melanogaster.arff  | model = ENB-EV+BRS
+dataset = AG-D.melanogaster.csv  | model = ENB-EV+BRS
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.000000      0.000000        0.000000            3.0        0.842105     1.000000       0.914286          16.0  0.842105    0.500000  0.666667  0.000000
 1            0.333333      0.166667        0.222222            6.0        0.687500     0.846154       0.758621          13.0  0.631579    0.506410  0.551282  0.375534
@@ -184,7 +184,7 @@ dataset = AG-D.melanogaster.arff  | model = ENB-EV+BRS
 9            1.000000      0.125000        0.222222            8.0        0.588235     1.000000       0.740741          10.0  0.611111    0.562500  0.712500  0.353553
 mean         0.350000      0.083258        0.134517            6.9        0.636621     0.945528       0.760918          11.6  0.632749    0.514393  0.690007  0.280575
 
-dataset = AG-M.musculus.arff  | model = NB-NV
+dataset = AG-M.musculus.csv  | model = NB-NV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.500000      0.666667        0.571429            3.0        0.800000     0.666667       0.727273           6.0  0.666667    0.666667  0.694444  0.666667
 1            0.666667      1.000000        0.800000            2.0        1.000000     0.857143       0.923077           7.0  0.888889    0.928571  1.000000  0.925820
@@ -198,7 +198,7 @@ dataset = AG-M.musculus.arff  | model = NB-NV
 9            1.000000      0.666667        0.800000            3.0        0.833333     1.000000       0.909091           5.0  0.875000    0.833333  0.800000  0.816497
 mean         0.683333      0.468333        0.555765            3.1        0.732381     0.864524       0.792985           5.1  0.705556    0.666429  0.679266  0.636306
 
-dataset = AG-M.musculus.arff  | model = ENB-NV
+dataset = AG-M.musculus.csv  | model = ENB-NV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0                0.50      1.000000        0.666667            3.0        1.000000     0.500000       0.666667           6.0  0.666667    0.750000  0.888889  0.707107
 1                0.40      1.000000        0.571429            2.0        1.000000     0.571429       0.727273           7.0  0.666667    0.785714  1.000000  0.755929
@@ -212,7 +212,7 @@ dataset = AG-M.musculus.arff  | model = ENB-NV
 9                0.50      0.333333        0.400000            3.0        0.666667     0.800000       0.727273           5.0  0.625000    0.566667  0.666667  0.516398
 mean             0.45      0.643333        0.529573            3.1        0.716667     0.506667       0.593642           5.1  0.570833    0.575000  0.667341  0.570925
 
-dataset = AG-M.musculus.arff  | model = ENB-NV+BRS
+dataset = AG-M.musculus.csv  | model = ENB-NV+BRS
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0                0.50      1.000000        0.666667            3.0        1.000000     0.500000       0.666667           6.0  0.666667    0.750000  1.000000  0.707107
 1                0.40      1.000000        0.571429            2.0        1.000000     0.571429       0.727273           7.0  0.666667    0.785714  1.000000  0.755929
@@ -226,7 +226,7 @@ dataset = AG-M.musculus.arff  | model = ENB-NV+BRS
 9                0.50      0.333333        0.400000            3.0        0.666667     0.800000       0.727273           5.0  0.625000    0.566667  0.733333  0.516398
 mean             0.45      0.643333        0.529573            3.1        0.708333     0.492381       0.580937           5.1  0.558333    0.567857  0.685119  0.562819
 
-dataset = AG-M.musculus.arff  | model = NB-EV
+dataset = AG-M.musculus.csv  | model = NB-EV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.500000      0.333333        0.400000            3.0        0.714286     0.833333       0.769231           6.0  0.666667    0.583333  0.722222  0.527046
 1            0.666667      1.000000        0.800000            2.0        1.000000     0.857143       0.923077           7.0  0.888889    0.928571  0.857143  0.925820
@@ -240,7 +240,7 @@ dataset = AG-M.musculus.arff  | model = NB-EV
 9            0.000000      0.000000        0.000000            3.0        0.625000     1.000000       0.769231           5.0  0.625000    0.500000  0.666667  0.000000
 mean         0.483333      0.348333        0.404876            3.1        0.680238     0.851429       0.756267           5.1  0.668056    0.599881  0.668651  0.544592
 
-dataset = AG-M.musculus.arff  | model = ENB-EV
+dataset = AG-M.musculus.csv  | model = ENB-EV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0                0.00      0.000000        0.000000            3.0        0.666667     1.000000       0.800000           6.0  0.666667    0.500000  0.833333  0.000000
 1                0.50      0.500000        0.500000            2.0        0.857143     0.857143       0.857143           7.0  0.777778    0.678571  0.857143  0.654654
@@ -254,7 +254,7 @@ dataset = AG-M.musculus.arff  | model = ENB-EV
 9                0.00      0.000000        0.000000            3.0        0.625000     1.000000       0.769231           5.0  0.625000    0.500000  0.666667  0.000000
 mean             0.45      0.186667        0.263874            3.1        0.651190     0.926429       0.764800           5.1  0.644444    0.556548  0.692560  0.415853
 
-dataset = AG-M.musculus.arff  | model = ENB-EV+BRS
+dataset = AG-M.musculus.csv  | model = ENB-EV+BRS
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.000000      0.000000        0.000000            3.0        0.666667     1.000000       0.800000           6.0  0.666667    0.500000  0.833333  0.000000
 1            0.666667      1.000000        0.800000            2.0        1.000000     0.857143       0.923077           7.0  0.888889    0.928571  0.857143  0.925820
@@ -268,7 +268,7 @@ dataset = AG-M.musculus.arff  | model = ENB-EV+BRS
 9            0.000000      0.000000        0.000000            3.0        0.625000     1.000000       0.769231           5.0  0.625000    0.500000  0.666667  0.000000
 mean         0.466667      0.236667        0.314060            3.1        0.665476     0.926429       0.774564           5.1  0.655556    0.581548  0.692976  0.468246
 
-dataset = AG-S.cerevisiae.arff  | model = NB-NV
+dataset = AG-S.cerevisiae.csv  | model = NB-NV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc  g-mean
 0            0.897436      1.000000        0.945946           35.0             0.0          0.0            0.0           4.0  0.897436    0.500000  0.500000     0.0
 1            0.923077      1.000000        0.960000           36.0             0.0          0.0            0.0           3.0  0.923077    0.500000  0.500000     0.0
@@ -282,7 +282,7 @@ dataset = AG-S.cerevisiae.arff  | model = NB-NV
 9            0.894737      1.000000        0.944444           34.0             0.0          0.0            0.0           4.0  0.894737    0.500000  0.500000     0.0
 mean         0.878993      0.996875        0.934230           33.6             0.0          0.0            0.0           4.6  0.876788    0.498437  0.498437     0.0
 
-dataset = AG-S.cerevisiae.arff  | model = ENB-NV
+dataset = AG-S.cerevisiae.csv  | model = ENB-NV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.888889      0.457143        0.603774           35.0        0.095238     0.500000       0.160000           4.0  0.461538    0.478571  0.621429  0.478091
 1            0.950000      0.527778        0.678571           36.0        0.105263     0.666667       0.181818           3.0  0.538462    0.597222  0.518519  0.593171
@@ -296,7 +296,7 @@ dataset = AG-S.cerevisiae.arff  | model = ENB-NV
 9            1.000000      0.529412        0.692308           34.0        0.200000     1.000000       0.333333           4.0  0.578947    0.764706  0.786765  0.727607
 mean         0.919702      0.506806        0.653499           33.6        0.158486     0.658333       0.255470           4.6  0.526316    0.582570  0.616213  0.577622
 
-dataset = AG-S.cerevisiae.arff  | model = ENB-NV+BRS
+dataset = AG-S.cerevisiae.csv  | model = ENB-NV+BRS
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            1.000000      0.285714        0.444444           35.0        0.137931     1.000000       0.242424           4.0  0.358974    0.642857  0.650000  0.534522
 1            0.937500      0.416667        0.576923           36.0        0.086957     0.666667       0.153846           3.0  0.435897    0.541667  0.444444  0.527046
@@ -310,7 +310,7 @@ dataset = AG-S.cerevisiae.arff  | model = ENB-NV+BRS
 9            1.000000      0.441176        0.612245           34.0        0.173913     1.000000       0.296296           4.0  0.500000    0.720588  0.816176  0.664211
 mean         0.952883      0.408132        0.571488           33.6        0.164068     0.850000       0.275047           4.6  0.461066    0.629066  0.612150  0.588993
 
-dataset = AG-S.cerevisiae.arff  | model = NB-EV
+dataset = AG-S.cerevisiae.csv  | model = NB-EV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.965517      0.800000        0.875000           35.0        0.300000     0.750000       0.428571           4.0  0.794872    0.775000  0.900000  0.774597
 1            0.939394      0.861111        0.898551           36.0        0.166667     0.333333       0.222222           3.0  0.820513    0.597222  0.847222  0.535758
@@ -324,7 +324,7 @@ dataset = AG-S.cerevisiae.arff  | model = NB-EV
 9            0.939394      0.911765        0.925373           34.0        0.400000     0.500000       0.444444           4.0  0.868421    0.705882  0.794118  0.675191
 mean         0.908229      0.855554        0.881105           33.6        0.302500     0.366667       0.331507           4.6  0.795749    0.611111  0.771254  0.560092
 
-dataset = AG-S.cerevisiae.arff  | model = ENB-EV
+dataset = AG-S.cerevisiae.csv  | model = ENB-EV
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.916667      0.942857        0.929577           35.0        0.333333         0.25       0.285714           4.0  0.871795    0.596429  0.871429  0.485504
 1            0.923077      1.000000        0.960000           36.0        0.000000         0.00       0.000000           3.0  0.923077    0.500000  0.861111  0.000000
@@ -338,7 +338,7 @@ dataset = AG-S.cerevisiae.arff  | model = ENB-EV
 9            0.894737      1.000000        0.944444           34.0        0.000000         0.00       0.000000           4.0  0.894737    0.500000  0.786765  0.000000
 mean         0.883121      0.988304        0.932756           33.6        0.133333         0.05       0.072727           4.6  0.874224    0.519152  0.755537  0.222295
 
-dataset = AG-S.cerevisiae.arff  | model = ENB-EV+BRS
+dataset = AG-S.cerevisiae.csv  | model = ENB-EV+BRS
       precision(anti)  recall(anti)  f1-score(anti)  support(anti)  precision(pro)  recall(pro)  f1-score(pro)  support(pro)  accuracy  b-accuracy   roc-auc    g-mean
 0            0.914286      0.914286        0.914286           35.0        0.250000     0.250000       0.250000           4.0  0.846154    0.582143  0.871429  0.478091
 1            0.942857      0.916667        0.929577           36.0        0.250000     0.333333       0.285714           3.0  0.871795    0.625000  0.824074  0.552771
