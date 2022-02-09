@@ -2,7 +2,7 @@
 
 This repository contains the datasets and code related to the work reported in the paper referenced below.
 
-M. R. H. Maia, A. Plastino and A. A. Freitas, "An Ensemble of Naive Bayes Classifiers for Uncertain Categorical Data", *2021 IEEE International Conference on Data Mining (ICDM), 2021*, pp. 1222-1227, doi: [10.1109/ICDM51629.2021.00148](https://doi.org/10.1109/ICDM51629.2021.00148).
+M. R. H. Maia, A. Plastino and A. A. Freitas, "An Ensemble of Naive Bayes Classifiers for Uncertain Categorical Data", *2021 IEEE International Conference on Data Mining (ICDM)*, 2021, pp. 1222-1227, doi: [10.1109/ICDM51629.2021.00148](https://doi.org/10.1109/ICDM51629.2021.00148).
 
 The code was implemented and tested using Python 3.9.  
 Dependencies are specified in file `requirements.txt`.
